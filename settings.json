@@ -71,6 +71,9 @@
   /* Privacy: disable IP logging */
   "disableIPlogging": false,  
   
+  /* To enable Stats view click Settings -> Show Pad and Author Stats */
+  ep_stats_default: "true"
+  
   /* Users for basic authentication. is_admin = true gives access to /admin.
      If you do not uncomment this, /admin will not be available! */
   
@@ -83,6 +86,57 @@
       "password": "testuserpass",
       "is_admin": false
     }
+	
+	"participant1": {
+      "password": "userpass",
+      "is_admin": false
+    }
+
+	"participant2": {
+      "password": "userpass",
+      "is_admin": false
+    }	
+
+	"participant3": {
+      "password": "testuserpass",
+      "is_admin": false
+    }	
+
+	"participant4": {
+      "password": "testuserpass",
+      "is_admin": false
+    }	
+
+	"participant5": {
+      "password": "testuserpass",
+      "is_admin": false
+    }
+	
+	"participant6": {
+      "password": "testuserpass",
+      "is_admin": false
+    }	
+
+	"participant7": {
+      "password": "testuserpass",
+      "is_admin": false
+    }
+
+	"participant8": {
+      "password": "testuserpass",
+      "is_admin": false
+    }
+
+	"participant9": {
+      "password": "testuserpass",
+      "is_admin": false
+    }
+
+	"participant10": {
+      "password": "testuserpass",
+      "is_admin": false
+    }
+	
   },
 
   // restrict socket.io transport methods
